@@ -1,0 +1,140 @@
+.container{
+    width: 80%;
+    background-color: white;
+    height: auto;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
+body{
+    background-color:darkkhaki;
+}
+#link{
+    display: flex;
+    padding-left: 15px;
+    text-decoration: underline;
+    color: gray;
+}
+a{
+    display: flex;
+    padding-left: 25px;
+    text-decoration: none;
+    color: red;
+}
+h2{
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+#text{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+#pokeType{
+    width: 12%;
+    margin-right: 0;
+    display: contents;
+}
+#pokeWeak{
+   width: 12%;
+   margin-right: 0;
+   display:contents;
+}
+.pokemonImg{
+    max-width: 100%;
+    height: auto;
+}
+.pokeContainer{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    ;
+    width: 200px;
+}
+img{
+    width: 100%;
+}
+.backNormal{
+    background-color: #9199a1;
+    color: black;
+}
+.backBug{
+    background-color: #91c22f;
+    color: black;
+}
+.backDragon{
+    background-color: #0c6ec7;
+    color: white;
+}
+.backFairy{
+    background-color: #ef8fe7;
+    color: black;
+}
+.backFire{
+    background-color: #ff9d55;
+    color: black;
+}
+.backGhost{
+    background-color: #5467aa;
+    color: white;
+}
+.backGround{
+    background-color: #db7645;
+    color: black;
+}
+.backPsychic{
+    background-color: #fb7075;
+    color: black;
+}
+.backSteel{
+    background-color: #598fa2;
+    color: black;
+}
+.backDark{
+    background-color: #5a5366;
+    color: white;
+}
+.backElectric{
+    background-color: #f3d33c;
+    color: black;
+}
+.backFighting{
+    background-color: #cf4069;
+    color: black;
+}
+.backFlying{
+    background-color: #8ea9df;
+    color: black;
+}
+.backGrass{
+    background-color: #61bc5a;
+    color: black;
+}
+.backIce{
+    background-color: #51c4e7;
+    color: black;
+}
+.backPoison{
+    background-color: #aa6ac7;
+    color: white;
+}
+.backRock{
+    background-color: #c7b78a;
+    color: black;
+}
+.backWater{
+    background-color: #4e91d7;
+    color: black;
+}
+span{
+    font-family: "Flexo-Medium",arial,sans-serif;
+    border-radius: 3px;
+    line-height: 18px;
+    margin: 0 1.5625% 0 0;
+    width: 38.4375%;
+    float: left;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 5px;
+}

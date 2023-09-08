@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/pokedex_sample.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <h2>Benvenuti nel Pokédex</h2>
+    <div id="text">by Bianco Andrea</div>
+    <div id="link">Link dei siti utilizzati</div>
+    <a href="https://www.pokemon.com/it/pokedex" target="_blank">Pokèdex</a>
+    <a href="https://www.w3schools.com" target="_blank">w3schools</a>
+    <div class="container">
+        <input type="text" placeholder="Inserisci il nome" name="search" id="testo">
+        <div id="pokeType">
+            <div>Tipo</div>
+            <select name="tipo" id="types">
+                <option value="-----">-----</option>
+                <option value="Normale">Normale</option>
+                <option value="Coleottero">Coleottero</option>
+                <option value="Drago">Drago</option>
+                <option value="Folletto">Folletto</option>
+                <option value="Fuoco">Fuoco</option>
+                <option value="Spettro">Spettro</option>
+                <option value="Terra">Terra</option>
+                <option value="Psico">Psico</option>
+                <option value="Acciaio">Acciaio</option>
+                <option value="Buio">Buio</option>
+                <option value="Elettro">Elettro</option>
+                <option value="Lotta">Lotta</option>
+                <option value="Volante">Volante</option>
+                <option value="Erba">Erba</option>
+                <option value="Ghiaccio">Ghiaccio</option>
+                <option value="Veleno">Veleno</option>
+                <option value="Roccia">Roccia</option>
+                <option value="Acqua">Acqua</option>
+            </select>
+        </div>
+        <div id="pokeWeak">
+            <div>Debolezze</div>
+            <select name="debole" id="weakness">
+                <option value="-----">-----</option>
+                <option value="Coleottero">Coleottero</option>
+                <option value="Drago">Drago</option>
+                <option value="Folletto">Folletto</option>
+                <option value="Fuoco">Fuoco</option>
+                <option value="Spettro">Spettro</option>
+                <option value="Terra">Terra</option>
+                <option value="Psico">Psico</option>
+                <option value="Acciaio">Acciaio</option>
+                <option value="Buio">Buio</option>
+                <option value="Elettro">Elettro</option>
+                <option value="Lotta">Lotta</option>
+                <option value="Volante">Volante</option>
+                <option value="Erba">Erba</option>
+                <option value="Ghiaccio">Ghiaccio</option>
+                <option value="Veleno">Veleno</option>
+                <option value="Roccia">Roccia</option>
+                <option value="Acqua">Acqua</option>
+            </select>
+        </div>
+        <input type="button" value="Search" id="search" onclick="ricerca()">
+        <div id="contPokedex" class="row">
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
